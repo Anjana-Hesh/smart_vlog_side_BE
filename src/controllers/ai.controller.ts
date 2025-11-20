@@ -7,6 +7,7 @@ export const generateContent = async (req:Request , resp: Response) => {
     const { prompt , maxToken } = req.body;
 
     // can use API or SDK
+    
 
         try {
 
